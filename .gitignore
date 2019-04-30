@@ -9,6 +9,15 @@ __pycache__/
 #pycharm files
 .idea/*
 
+# tensorflow files
+events.out.*
+checkpoint
+*.pbtxt
+
+# Data Files
+
+data/*
+
 # Distribution / packaging
 .Python
 env/
@@ -81,6 +90,10 @@ celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
+*.index
+*.meta
+*.data*
+
 
 # dotenv
 .env
